@@ -1,0 +1,5 @@
+org.edrdg.jmdict-*
+
+__pycache__/
+
+*.py[doc]
