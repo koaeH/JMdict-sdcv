@@ -310,6 +310,7 @@ class MonstriferTask(Task):
 
         if "poss"     in sense: data += self._(5, ", ".join(sense["poss"]))
         if "fields"   in sense: data += f' {" ".join([ self._(6, f"[{q}]") for q in sense["fields"] ])}'
+        if "miscs"    in sense: data += f' {" ".join([ self._(1, f"[{q}]") for q in sense["miscs" ] ])}'
         if "dials"    in sense: data += f' {" ".join([ self._(6, f"/{q}/") for q in sense["dials" ] ])}'
         if "s_infs"   in sense: data += f' {" ".join([ self._(4, f"({q})") for q in sense["s_infs"] ])}'
         if "lsources" in sense:
