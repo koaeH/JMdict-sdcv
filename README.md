@@ -1,7 +1,7 @@
 Reader,
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-Here you will find an updated copy of the [Japanese-Multilingual Dictionary](https://www.edrdg.org/jmdict/j_jmdict.html) for use in `sdcv(1)`, a text-based StarDict viewer; should it prove of any interest, the prototype program used in building this dictionary from the source XML has also been included.
+Here you will find an updated copy of the [Japanese-Multilingual Dictionary](https://www.edrdg.org/jmdict/j_jmdict.html) for use in `sdcv(1)`, a text-based StarDict viewer; should it prove of any interest, the prototype used in building this dictionary from the source XML has also been included.
 
 #### Structure of Entries ↴
 
@@ -17,8 +17,8 @@ Here you will find an updated copy of the [Japanese-Multilingual Dictionary](htt
 | [`org.edrdg.jmdict-jpn-eng-5000.tar.gz`](https://github.com/koaeH/JMdict-sdcv/releases/latest/download/org.edrdg.jmdict-jpn-eng-5000.tar.gz)                   | `sdcv(1)`, Top 5000 entries ex 9780415610124 |
 | [`org.edrdg.jmdict-jpn-eng-prothymia.tar.gz`](https://github.com/koaeH/JMdict-sdcv/releases/latest/download/org.edrdg.jmdict-jpn-eng-prothymia.tar.gz)         | `sdcv(1)`, ANSI colorized (black background) |
 | [`org.edrdg.jmdict-jpn-eng-prothymia-lux.tar.gz`](https://github.com/koaeH/JMdict-sdcv/releases/latest/download/org.edrdg.jmdict-jpn-eng-prothymia-lux.tar.gz) | `sdcv(1)`, ANSI colorized (white background) |
-| [`org.edrdg.jmdict-jpn-eng-prothymia.asc.xz`](https://github.com/koaeH/JMdict-sdcv/releases/latest/download/org.edrdg.jmdict-jpn-eng-prothymia.asc.xz)         | xz → text/plain, use `xzmore`                |
-| [`org.edrdg.jmdict-jpn-eng.asc.xz`](https://github.com/koaeH/JMdict-sdcv/releases/latest/download/org.edrdg.jmdict-jpn-eng.asc.xz)                             | xz → text/plain, use `xzmore`                |
+| [`org.edrdg.jmdict-jpn-eng-prothymia.asc.xz`](https://github.com/koaeH/JMdict-sdcv/releases/latest/download/org.edrdg.jmdict-jpn-eng-prothymia.asc.xz)         | `less(1)`, `xzless(1)`, &c., use `-R`.       |
+| [`org.edrdg.jmdict-jpn-eng.asc.xz`](https://github.com/koaeH/JMdict-sdcv/releases/latest/download/org.edrdg.jmdict-jpn-eng.asc.xz)                             | `less(1)`, `xzless(1)`, &c.                  |
 
 Languages other than English:
 
